@@ -10,7 +10,7 @@ export default defineConfig(({ mode }) => {
 
   return {
     server: {
-      port: 3000,
+      port: 80,
       watch: {
         ignored: ['**/.env*'],
       },
