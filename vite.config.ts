@@ -12,6 +12,7 @@ export default defineConfig(({ mode }) => {
     server: {
       host: '0.0.0.0',
       port: 80,
+      allowedHosts: ['swyftpain.com'],
       watch: {
         ignored: ['**/.env*'],
       },
